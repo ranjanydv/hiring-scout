@@ -4,7 +4,7 @@ import JobManagement from './job-management';
 
 const Stats = () => {
     return (
-        <section className="gap-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mx-auto mt-16 container">
+        <section className="gap-2 gap-y-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mx-auto mt-16 container">
             <OverallStats />
             <JobManagement />
         </section>

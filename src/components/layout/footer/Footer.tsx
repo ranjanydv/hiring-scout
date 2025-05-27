@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-gradient-to-r from-purple-400 via-purple-700 to-indigo-900 mt-10 px-4 py-3 w-full min-h-44">
+        <footer className="bg-gradient-to-b lg:bg-gradient-to-r from-purple-700/30 via-20% via-purple-700 to-90% to-indigo-950 mt-10 px-4 py-3 w-full min-h-44">
             <nav className="flex flex-wrap justify-end items-center gap-4 px-8 font-light text-white text-sm">
                 <Link href="/about" className="">
                     About Us

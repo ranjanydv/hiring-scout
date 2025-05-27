@@ -6,13 +6,13 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav className="">
+        <nav className="px-4">
             <div className="flex justify-between items-center mx-auto container">
                 <div className="relative w-32 h-16">
                     <Image fill src={'/logo.png'} alt="Logo" className="object-contain" />
                 </div>
                 <div className="flex items-center gap-2">
-                    <span className="hover:bg-accent p-2.5 border rounded-full text-muted-foreground transition-all duration-200 ease-in cursor-pointer">
+                    <span className="hidden lg:block hover:bg-accent p-2.5 border rounded-full text-muted-foreground transition-all duration-200 ease-in cursor-pointer">
                         <Bell size={18} />
                     </span>
                     <div className="flex items-center gap-3 hover:bg-muted/50 px-2 py-1.5 rounded-lg transition-colors cursor-pointer">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             <AvatarImage src="https://github.com/shadcn.png" alt="User" />
                             <AvatarFallback>SA</AvatarFallback>
                         </Avatar>
-                        <div className="flex items-center gap-2">
+                        <div className="hidden lg:flex items-center gap-2">
                             <div className="flex flex-col space-y-1">
                                 <p className="font-medium text-sm leading-none">Sara Ann</p>
                                 <span className="text-muted-foreground text-xs">Hiring Manager for Apple Inc.</span>

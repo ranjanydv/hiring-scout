@@ -5,7 +5,7 @@ import WelcomeText from './_components/welcome-text';
 
 const Homepage = () => {
     return (
-        <main className="py-5">
+        <main className="px-4 lg:px-0 py-5">
             <section className="space-y-5 mx-auto container">
                 <Filters />
                 <WelcomeText />

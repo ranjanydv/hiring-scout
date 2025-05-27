@@ -33,8 +33,8 @@ const OverallStats = () => {
                         <div className="flex items-center bg-green-200 px-3 py-1 text-green-800">19 Fulfilled</div>
                         <div className="flex items-center bg-yellow-200 px-3 py-1 text-yellow-800">20 On Hold</div>
                         <div className="flex items-center bg-red-200 px-3 py-1 text-red-800">33 Cancelled</div>
-                        <div className="flex items-center bg-blue-200 px-3 py-1 text-blue-800">51 Pending Company Approval</div>
-                        <div className="flex items-center bg-orange-200 px-3 py-1 text-orange-800">77 In Progress</div>
+                        <div className="hidden lg:flex items-center bg-blue-200 px-3 py-1 text-blue-800">51 Pending Company Approval</div>
+                        <div className="hidden lg:flex items-center bg-orange-200 px-3 py-1 text-orange-800">77 In Progress</div>
                     </div>
                 </div>
 

@@ -4,7 +4,7 @@ const JobCard = ({ jobTitle }: { jobTitle: string }) => {
     return (
         <div className="flex flex-col justify-between bg-white p-4 rounded-md h-full min-h-[140px]">
             <div className="">
-                <div className="flex justify-between items-center">
+                <div className="flex flex-wrap justify-between items-center gap-2">
                     <div className="flex font-medium text-gray-400 text-xs">
                         <p>#1001</p>
                         <p className="mx-1">•</p>
@@ -21,12 +21,12 @@ const JobCard = ({ jobTitle }: { jobTitle: string }) => {
                     </div>
                 </div>
                 <div className="flex-1 h-full">
-                    <p className="text-3xl">{jobTitle}</p>
+                    <p className="mb-4 text-3xl">{jobTitle}</p>
                 </div>
             </div>
             <div className="flex justify-between items-center -mb-2">
                 <div className="flex gap-2 text-gray-400 text-sm">
-                    <small>
+                    <small className='flex lg:flex-row flex-col items-start lg:items-center lg:gap-1'>
                         <span className="text-black text-lg">120 </span>Applicants
                     </small>
                     <small>

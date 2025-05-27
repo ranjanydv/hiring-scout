@@ -1,3 +1,5 @@
+"use client";
+
 const Suggestion = () => {
     return (
         <div className="flex flex-col space-y-4 col-span-2 h-full">
@@ -10,8 +12,9 @@ const Suggestion = () => {
                     <p className="text-gray-500 text-3xl">
                         Consider shortlisting candidates faster—your <span className="text-black">TAT is 20% higher than</span> industry average.
                     </p>
-                    <p className="text-gray-500 text-3xl">
-                        Consider finalising candidates for interview faster—your <span className="text-black">TAT is 10% higher than</span> industry average.
+                    <p className={`hidden lg:flex text-gray-500 text-3xl`}>
+                        Consider finalising candidates for interview faster—your <span className="text-black">TAT is 10% higher than</span> industry
+                        average.
                     </p>
                 </div>
             </div>
