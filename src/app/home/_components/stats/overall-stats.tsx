@@ -30,30 +30,11 @@ const OverallStats = () => {
                         <h3 className="font-medium text-gray-900 text-3xl">200</h3>
                     </div>
                     <div className="flex rounded-md font-medium text-xs">
-                        <div className="flex items-center bg-green-200 px-3 py-1 text-green-800">
-                            {/* <span className="mr-1 font-medium text-sm">
-								</span>  */}
-                            19 Fulfilled
-                        </div>
-                        <div className="flex items-center bg-yellow-200 px-3 py-1 text-yellow-800">
-                            {/* <span className="mr-1 font-medium text-sm">
-								</span>  */}
-                            20 On Hold
-                        </div>
-                        <div className="flex items-center bg-red-200 px-3 py-1 text-red-800">
-                            {/* <span className="mr-1 font-medium text-sm"></span> */}
-                            33 Cancelled
-                        </div>
-                        <div className="flex items-center bg-blue-200 px-3 py-1 text-blue-800">
-                            {/* <span className="mr-1 font-medium text-sm">
-								</span> */}
-                            51 Pending Company Approval
-                        </div>
-                        <div className="flex items-center bg-orange-200 px-3 py-1 text-orange-800">
-                            {/* <span className="mr-1 font-medium text-sm">
-								</span> */}
-                            77 In Progress
-                        </div>
+                        <div className="flex items-center bg-green-200 px-3 py-1 text-green-800">19 Fulfilled</div>
+                        <div className="flex items-center bg-yellow-200 px-3 py-1 text-yellow-800">20 On Hold</div>
+                        <div className="flex items-center bg-red-200 px-3 py-1 text-red-800">33 Cancelled</div>
+                        <div className="flex items-center bg-blue-200 px-3 py-1 text-blue-800">51 Pending Company Approval</div>
+                        <div className="flex items-center bg-orange-200 px-3 py-1 text-orange-800">77 In Progress</div>
                     </div>
                 </div>
 
@@ -75,15 +56,13 @@ const OverallStats = () => {
                             <div
                                 key={`bar-left-${i}`}
                                 className={`w-4 bg-gray-300 rounded-t-sm`}
-                                style={{ height: `${Math.random() * 60 + 20}px` }}
-                            ></div>
+                                style={{ height: `${Math.random() * 60 + 20}px` }}></div>
                         ))}
                         {[...Array(8)].map((_, i) => (
                             <div
                                 key={`bar-right-${i}`}
                                 className={`w-4 bg-indigo-500 rounded-t-sm`}
-                                style={{ height: `${Math.random() * 80 + 40}px` }}
-                            ></div>
+                                style={{ height: `${Math.random() * 80 + 40}px` }}></div>
                         ))}
                     </div>
                     <div className="flex justify-between mt-2 text-gray-500 text-xs">
